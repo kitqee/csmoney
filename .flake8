@@ -1,0 +1,25 @@
+[flake8]
+max-line-length = 79
+max-complexity=10
+inline-quotes='
+multiline-quotes="""
+docstring-quotes="""
+ignore = C812
+exclude =
+    .git,
+    __pycache__,
+    src,
+    bin,
+    build,
+    dist,
+    lib,
+    migrations,
+    docs,
+    .venv,
+    .env,
+    local_settings.py,
+    local.py,
+    venv*,
+    settings*,
+    __init__.py
+    manage.py
